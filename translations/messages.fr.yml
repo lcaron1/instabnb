@@ -1,0 +1,31 @@
+Detail:
+    id: 'id'
+    Title: 'Titre'
+    Price: 'Prix'
+    Content: 'Contient'
+    CreateAt: 'Crée le'
+    Nulld: 'Aucune Annonce'
+    GoBack: 'Retour'
+Add:
+    Title: 'Titre'
+    Price: 'Prix'
+    Content: 'Contient'
+    Submit: 'Ajouter'
+Home:
+    id: 'id'
+    Content: 'Contient'
+    CreateAt: 'Crée le'
+    Price: 'Prix'
+    Title: 'Titre'
+    ShowMore: 'Plus'
+    Nulld: 'Aucune Annonce'
+Base:
+    Add: 'Crée'
+    List: 'Liste'
+    Home: 'Accueil'
+Annoucements:
+    id: 'id'
+    Title: 'Titre'
+    Price: 'Prix'
+    Content: 'Contient'
+    CreateAt: 'Crée le'

@@ -1,0 +1,31 @@
+Detail:
+    id: 'id'
+    Title: 'Titre'
+    Price: 'Price'
+    Content: 'Content'
+    CreateAt: 'Create At'
+    Nulle: 'No annoucement'
+    GoBack: 'Go Back'
+Add:
+    Title: 'Title'
+    Price: 'Price'
+    Content: 'Content'
+    Submit: 'Submit'
+Home:
+    id: 'id'
+    Content: 'Content'
+    CreateAt: 'Create At'
+    Price: 'Price'
+    Title: 'Title'
+    ShowMore: 'Show More'
+    Nulle: 'No annoucement'
+Base:
+    Add: 'Create'
+    List: 'List'
+    Home: 'Home'
+Annoucements:
+    id: 'id'
+    Title: 'Title'
+    Price: 'Price'
+    Content: 'Content'
+    CreateAt: 'Create At'

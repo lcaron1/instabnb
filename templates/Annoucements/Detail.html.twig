@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ controller_name }}{% endblock %}
+
+{% block body %}
+    {{ dump(theAnnoucements) }}
+    {% if theAnnoucements is not empty %}
+        {% for annoucements in theAnnoucements %}
+            <li>{{ 'Detail.id'|trans }}  : {{annoucements.id}}</li></br>
+            <li>{{ 'Detail.Title'|trans }}  : {{annoucements.title}}</li></br>
+            <li>{{ 'Detail.Content'|trans }} : {{annoucements.content}}</li></br>
+            <li>{{ 'Detail.Price'|trans }} : {{annoucements.price}}</li></br>
+            <li>{{ 'Detail.CreateAt'|trans }} : {{annoucements.CreatedAt |date("d/m/Y")}}</li></br></br>
+        {% endfor %}
+    {% else %}
+        <li>{{ 'Detail.Nulle'|trans }}</li>
+    {% endif %}
+
+    <a href="{{ path('home') }}"> {{ 'Detail.GoBack'|trans }} </a>
+{% endblock %}

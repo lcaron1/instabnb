@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ controller_name }}{% endblock %}
+
+    {% block body %}
+        {{ form_start(form) }}
+        {{ form_errors(form) }}
+
+        {{ form_row(form.firstName) }}
+        {{ form_row(form.lastName) }}
+        {{ form_row(form.email) }}
+        {{ form_row(form.password) }}
+
+        <button type="submit">Go</button>
+        {{ form_end(form) }}
+    {% endblock %}

@@ -1,4 +1,5 @@
 {
+    "authors": [{"name":"Loïc Caron"}],
     "type": "project",
     "license": "proprietary",
     "require": {

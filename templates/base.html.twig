@@ -2,8 +2,19 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ asset('css/Background.css') }}" type="text/css" />
         <title>{% block title %}Welcome!{% endblock %}</title>
         {% block stylesheets %}{% endblock %}
+        {% block Menu %}
+            <div class="Menu">
+                <div class="Li">
+                    <li><a href="{{ path('home') }}">{{ 'Base.Home'|trans }}</a></li>
+                    <li><a href= "{{ path('annoucements') }}"> {{ 'Base.List'|trans }} </a></li>
+                    {#<li><a href="{{ path('detail') }}"> Detail </a></li>#}
+                    <li><a href="{{ path('add') }}"> {{ 'Base.Add'|trans }} </a></li>
+                </div>
+            </div>
+        {% endblock %}
     </head>
     <body>
         {% block body %}{% endblock %}
